@@ -1,0 +1,31 @@
+<idea-plugin>
+    <id>com.rarex.angular-helper-plugin</id>
+    <name>Angular Helper Plugin</name>
+    <version>0.0.2</version>
+    <vendor email="rarex@mail.ru" url="">Rarex</vendor>
+
+    <description><![CDATA[
+    Angular Helper Plugin description
+    ]]></description>
+
+    <idea-version since-build="173.0" />
+
+    <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <action id="OpenTsFileAction" class="OpenTsFileAction" text="Open ts file">
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl NUMPAD1"/>
+        </action>
+        <action id="OpenHtmlFileAction" class="OpenHtmlFileAction" text="Open html file">
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl NUMPAD2"/>
+        </action>
+        <action id="OpenScssFileAction" class="OpenScssFileAction" text="Open scss file">
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl NUMPAD3"/>
+        </action>
+    </actions>
+</idea-plugin>
