@@ -1,3 +1,5 @@
 /.idea/
 .gradle/
 src/test/
+/build/
+!/build/distributions/
