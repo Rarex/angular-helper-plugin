@@ -1,5 +1,5 @@
 # angular-helper-plugin
-Angular component hotkey navigation
+JetBrains plugin for Angular component hotkey navigation
 
 ctrl + num1 = ts file
 
